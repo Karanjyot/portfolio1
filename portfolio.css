@@ -1,0 +1,221 @@
+/*body {
+
+    background-color: lightgrey;
+    position:relative;
+}
+
+
+.container {
+
+position: absolute;
+width: 100%;
+height:50px;
+background-color:white;
+margin:auto;
+
+}
+*/
+
+hr {
+    width:95%;
+}
+   
+}
+.container {
+
+    width:100vw;
+    margin:0vw;
+    
+}
+
+body {
+    background-color: lightgrey;
+}
+
+.header {
+    background-color: white;
+    height:80px;
+    position: relative;
+    
+}
+
+
+.name {
+        position: absolute;
+        
+        left:20%;
+        font-size: 5mm;
+        
+        background-color: lightskyblue;
+        width:175px;
+        height:75%;
+        margin-top:20px;
+
+    }
+#fullname {
+
+    color: white;
+    font-weight:bold;
+    text-align: center;
+}
+
+.navbar {
+    position: absolute;
+    left:67%;
+    bottom:10%;
+    
+    
+
+}
+
+ul li{
+    display: inline;
+    
+  }
+
+  .listitem {
+
+    border-left: 1px solid grey;
+    margin-left:20px;
+  }
+
+  .aboutme {
+
+    position:relative;
+    height:300px;
+    width:960px;
+    background-color: white;
+    margin:auto;
+    border-radius:8px; 
+    
+
+  }
+
+.aboutmetitle {
+
+    color:lightskyblue;
+    font-weight: bold;
+    font-size: 7mm;
+    margin-left:20px;
+   
+    
+    
+}
+
+#image {
+
+    position: absolute;
+    left: 3%;
+    width:200px;
+
+}
+#aboutmepara {
+    margin-left:20px;
+
+
+}
+.portfolio {
+    position:relative;
+    height:600px;
+    width:960px;
+    background-color: white;
+    margin:auto;
+    border-radius:8px; 
+     
+}
+ 
+
+
+.contact {
+    position: relative;
+    position:relative;
+    height:300px;
+    width:960px;
+    background-color: white;
+    margin:auto;
+    margin-bottom: 20px;
+    border-radius:8px; 
+    
+    
+}
+
+.spaceclass {
+    margin-top:20px
+}
+
+input {
+    width:90%;
+    margin-left: 35px;
+   
+    
+}
+
+.formlabel {
+    margin-left: 35px;
+}
+
+#message {
+
+    margin-left: 35px;
+   
+}
+
+#submit {
+    width:20%;
+    margin-left:350px;
+}
+
+
+/* 
+.name {
+    position: absolute;
+    width: 20%;
+    height:100%;
+    background-color:skyblue;
+    left:18%;
+
+
+    
+    
+
+
+}
+
+#fullname {
+    position: absolute;
+    top:30%;
+    left:19%;
+    font-size: 5mm;
+    color: white;
+    font-weight:bold;
+}
+
+.navbar {
+    position: absolute;
+    
+    
+    width: 18%;
+    height:90%;
+    right:10%;
+    top:70%;
+    
+
+    
+
+}
+
+ul li{
+    display: inline;
+  }
+
+  .aboutme {
+
+    position:absolute;
+    height:30%;
+    width:30%;
+    background-color: white;
+   
+
+
+  }
+  */

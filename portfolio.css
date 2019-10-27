@@ -19,7 +19,9 @@ margin:auto;
 hr {
     width:95%;
 }
-   
+
+
+
 }
 .container {
 
@@ -29,15 +31,29 @@ hr {
 }
 
 body {
-    background-color: lightgrey;
+    background-color:#ebebe0;
+    
+
 }
 
+p {
+    color:#777777;
+    font-family: sans-serif;
+  }
+
+h1{
+    font-family: serif;
+}
+
+
 .header {
-    background-color: white;
+    background-color:#ffffff;
     height:80px;
     position: relative;
+    border-bottom: solid #cccccc;
     
 }
+
 
 
 .name {
@@ -46,7 +62,7 @@ body {
         left:20%;
         font-size: 5mm;
         
-        background-color: lightskyblue;
+        background-color: #4aaaa5;
         width:175px;
         height:75%;
         margin-top:20px;
@@ -57,11 +73,14 @@ body {
     color: white;
     font-weight:bold;
     text-align: center;
+ 
+    
+
 }
 
 .navbar {
     position: absolute;
-    left:67%;
+    left:62%;
     bottom:10%;
     
     
@@ -73,45 +92,71 @@ ul li{
     
   }
 
+  
+ #aboutli {
+     border:none;
+ }
+
   .listitem {
 
     border-left: 1px solid grey;
     margin-left:20px;
+    padding-left:20px;
+
+
   }
+
+  .listitem:hover {
+      color:blue;
+  }
+  .listitem:active {
+      color:green;
+  }
+
+
+
 
   .aboutme {
 
     position:relative;
-    height:300px;
+    height:700px;
     width:960px;
     background-color: white;
     margin:auto;
-    border-radius:8px; 
+    border: solid #dddddd;
+    
     
 
   }
 
-.aboutmetitle {
 
-    color:lightskyblue;
+.sectiontitle {
+
+    color:#4aaaa5;
     font-weight: bold;
     font-size: 7mm;
     margin-left:20px;
+    padding-top:20px;
    
-    
-    
+ 
+}
+
+.image {
+
+    float:left;
 }
 
 #image {
 
     position: absolute;
     left: 3%;
-    width:200px;
+    width:300px;
+
 
 }
 #aboutmepara {
     margin-left:20px;
-
+    
 
 }
 .portfolio {
@@ -120,7 +165,7 @@ ul li{
     width:960px;
     background-color: white;
     margin:auto;
-    border-radius:8px; 
+    border: solid #dddddd;
      
 }
  
@@ -128,14 +173,14 @@ ul li{
 
 .contact {
     position: relative;
-    position:relative;
-    height:300px;
+   
+    height:350px;
     width:960px;
     background-color: white;
     margin:auto;
     margin-bottom: 20px;
-    border-radius:8px; 
-    
+     
+    border: solid #dddddd;
     
 }
 
@@ -163,6 +208,32 @@ input {
 #submit {
     width:20%;
     margin-left:350px;
+}
+
+#submit:hover {
+    color:blue;
+   
+   
+}
+
+#submit:active {
+    color:green;
+    
+   
+}
+
+footer {
+    background-color: #666666;
+    height:80px;
+    color:white;
+    position: relative;
+}
+
+#footer {
+    left:750px;
+    bottom:0px;
+    position: absolute;
+
 }
 
 

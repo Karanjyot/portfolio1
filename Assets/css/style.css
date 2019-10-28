@@ -39,7 +39,7 @@ header {
         left:20%;
         font-size: 5mm;
         background-color: #4aaaa5;
-        width:175px;
+        width:250px;
         height:75%;
         margin-top:20px;
     }
@@ -47,6 +47,8 @@ header {
     color: white;
     font-weight:bold;
     text-align: center;
+    line-height: 60px;
+    font-size: 7mm;
 }
 
 .navbar {

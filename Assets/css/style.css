@@ -1,20 +1,3 @@
-/*body {
-
-    background-color: lightgrey;
-    position:relative;
-}
-
-
-.container {
-
-position: absolute;
-width: 100%;
-height:50px;
-background-color:white;
-margin:auto;
-
-}
-*/
 
 hr {
     width:95%;
@@ -22,7 +5,6 @@ hr {
 
 
 
-}
 .container {
 
     width:100vw;
@@ -33,7 +15,6 @@ hr {
 body {
     background-color:#ebebe0;
     
-
 }
 
 p {
@@ -46,50 +27,36 @@ h1{
 }
 
 
-.header {
+header {
     background-color:#ffffff;
     height:80px;
     position: relative;
-    border-bottom: solid #cccccc;
-    
+    border-bottom: solid #cccccc;  
 }
 
-
-
-.name {
+.namecontainer {
         position: absolute;
-        
         left:20%;
         font-size: 5mm;
-        
         background-color: #4aaaa5;
         width:175px;
         height:75%;
         margin-top:20px;
-
     }
-#fullname {
-
+#nametext {
     color: white;
     font-weight:bold;
     text-align: center;
- 
-    
-
 }
 
 .navbar {
     position: absolute;
     left:62%;
     bottom:10%;
-    
-    
-
 }
 
 ul li{
     display: inline;
-    
   }
 
   
@@ -97,37 +64,29 @@ ul li{
      border:none;
  }
 
-  .listitem {
-
+.listitem {
     border-left: 1px solid grey;
     margin-left:20px;
     padding-left:20px;
-
-
   }
 
-  .listitem:hover {
+.listitem:hover {
       color:blue;
   }
-  .listitem:active {
+.listitem:active {
       color:green;
   }
 
 
-
-
-  .aboutme {
-
+.aboutme {
     position:relative;
     height:700px;
     width:960px;
     background-color: white;
     margin:auto;
     border: solid #dddddd;
-    
-    
-
   }
+
 
 
 .sectiontitle {
@@ -137,13 +96,6 @@ ul li{
     font-size: 7mm;
     margin-left:20px;
     padding-top:20px;
-   
- 
-}
-
-.image {
-
-    float:left;
 }
 
 #image {
@@ -151,13 +103,10 @@ ul li{
     position: absolute;
     left: 3%;
     width:300px;
-
-
 }
+
 #aboutmepara {
     margin-left:20px;
-    
-
 }
 .portfolio {
     position:relative;
@@ -166,10 +115,7 @@ ul li{
     background-color: white;
     margin:auto;
     border: solid #dddddd;
-     
 }
- 
-
 
 .contact {
     position: relative;
@@ -179,20 +125,14 @@ ul li{
     background-color: white;
     margin:auto;
     margin-bottom: 20px;
-     
     border: solid #dddddd;
-    
 }
 
-.spaceclass {
-    margin-top:20px
-}
+
 
 input {
     width:90%;
     margin-left: 35px;
-   
-    
 }
 
 .formlabel {
@@ -202,7 +142,6 @@ input {
 #message {
 
     margin-left: 35px;
-   
 }
 
 #submit {
@@ -213,13 +152,11 @@ input {
 #submit:hover {
     color:blue;
    
-   
 }
 
 #submit:active {
     color:green;
-    
-   
+      
 }
 
 footer {
@@ -229,11 +166,15 @@ footer {
     position: relative;
 }
 
-#footer {
+#footertext {
     left:750px;
     bottom:0px;
     position: absolute;
 
+}
+
+.spaceclass {
+    margin-top:20px
 }
 
 

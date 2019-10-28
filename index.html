@@ -5,34 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="./reset.css"/>
-    <link rel="stylesheet" type="text/css" href="./portfolio.css"/>
+    <link rel="stylesheet" type="text/css" href=".\Assets\css\reset.css"/>
+    <link rel="stylesheet" type="text/css" href=".\Assets\css\style.css"/>
 </head>
 <body>
     
     <div class ="container">
-        <div class="headercontainer">
-        <div class = "header">
-            <div class ="name">
-            <h1 id="fullname">Karanjyot Thandi</h1>
-        </div>
+        
+    <header>
+            <div class ="namecontainer">
+            <h1 id="nametext">Karanjyot Thandi</h1>
+            </div>
+            
             <div class="navbar">
                     <ul> 
                         <a href ="#aboutme"><li class="listitem" id="aboutli">About</li></a>
                         <a href="#portfolio"><li class="listitem">Portfolio</li></a>
                         <a href ="#contact"><li class="listitem">Contact</li></a>
                     </ul>
-                </div>
+             </div>
         
         
-        </div>
+    </header>
         
-    </div>
     
-    <div class="aboutme spaceclass">
-        <h1 class="sectiontitle" id="aboutme">About Me</h1>
+    
+    <div class="aboutme spaceclass" id="aboutme">
+        <h1 class="sectiontitle">About Me</h1>
         <hr>
-       <img id="image"src="new.jpg" alt="profilepicture">
+       <img id="image"src="./assets/images/new.jpg" alt="profilepicture">
         <p id="aboutmepara">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis fuga consectetur laboriosam nesciunt ea sequi pariatur possimus voluptatibus beatae repellendus vel cumque dolorem cum qui modi, odit reiciendis eveniet quos?eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet eniet </p>
         
     </div>
@@ -41,12 +42,19 @@
     <div class="portfolio spaceclass" id="portfolio">
             <h1 class="sectiontitle">Portfolio</h1>
             <hr>
-        </div>
+            <a href="trivia.com"><img src="./assets/images/trivia.png" alt ="trivia"></a>
+            <a href="trivia.com"><img src="./assets/images/trivia.png" alt ="trivia"></a>
+            <div><a href="trivia.com"><img src="./assets/images/trivia.png" alt ="trivia"></a></div>
+            <div><a href="trivia.com"><img src="./assets/images/trivia.png" alt ="trivia"></a></div>
+            <div><a href="trivia.com"><img src="./assets/images/trivia.png" alt ="trivia"></a></div>
+        
+    </div>
+        
 
     <div class="contact spaceclass" id="contact">
         <h1 class="sectiontitle">Contact</h1>
         <hr>
-        <form>
+            <form>
                 <label class="formlabel">Name</label><br><br>
                 <input type="text" name="name" placeholder="Name">
                 <br><br>
@@ -56,11 +64,11 @@
                 <label class="formlabel">Message</label><br> <br>
                 <div id="message"> <textarea></textarea><br><br></div>
                 <input id="submit"type="submit" value="Submit">
-              </form>
+            </form>
     </div>
 
     <footer>
-        <div id="footer">Copyright &copy</div>
+        <div id="footertext">Copyright &copy</div>
             
     </footer>
 </div>
